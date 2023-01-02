@@ -1,52 +1,53 @@
 *, *::before, *::after{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-body{
-  align-items: center;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  background-color: white;
-}
-.conteiner{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.band{
-  width: 600px;
-  height: 400px;
-  background-color: #0038a8ff;
-  display: flex;
-}
-table{
-  width: 600px;
-  height: 400px;
-}
-table, td{
-     border: 0px;
-     border-collapse: collapse;
-            
-}
-
-tr:nth-child(odd){
-  background-color: white; /* Comando para pintar a tabela pulando de um em um*/
-}
-.box{
-  position: absolute;
-  width: 249px;
-  height: 249px;
-  background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    align-items: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+  }
+  .conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .band{
+    width: 600px;
+    height: 400px;
+    background-color: #0038a8ff;
+    display: flex;
+  }
+  table{
+    width: 600px;
+    height: 400px;
+  }
+  table, td{
+    /* border: 0.2px solid; */
+    border: 0px;
+    border-collapse: collapse;          
+  }
   
-}
-.sol{
-  position: absolute;
-  font-size: 200px;
-  transform: translate(20px, -20px);
-  color: #fcd116ff;
-}
+  tr:nth-child(odd){
+    background-color: white; /* Comando para pintar a tabela pulando de um em um*/
+  }
+  .box{
+    position: absolute;
+    width: 221px;
+    height: 221px;
+    background-color: white;
+    /* border: 0.2px solid; */
+    
+  }
+  .sol{
+    position: absolute;
+    font-size: 160px;
+    transform: translate(3px, -10px);
+    color: #fcd116ff;
+  }
