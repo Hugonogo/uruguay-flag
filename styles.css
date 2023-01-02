@@ -47,6 +47,6 @@ tr:nth-child(odd){
 .sol{
   position: absolute;
   font-size: 200px;
-  transform: translate(40px, -20px);
+  transform: translate(20px, -20px);
   color: #fcd116ff;
 }
